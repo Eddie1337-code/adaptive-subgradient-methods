@@ -98,6 +98,7 @@ adaptive-subgradient-methods/
 │                    #   - Empirical regret computation
 │                    #   - Sparsity and constraint verification
 │
+├── requirements.txt # Python dependencies
 └── .gitignore
 ```
 
@@ -121,7 +122,7 @@ cd adaptive-subgradient-methods
 
 python -m venv .venv
 source .venv/bin/activate
-pip install torch pandas numpy scikit-learn
+pip install -r requirements.txt
 ```
 
 ### Dataset
