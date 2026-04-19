@@ -1,0 +1,26 @@
+# Data files (too large for git)
+*.csv
+data_raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+
+# PyTorch checkpoints
+*.pt
+
+# Thesis PDF
+*.pdf
+
+# OS
+.DS_Store
+
+# Claude
+.claude/
+
+# Predictions output
+*_predictions.csv
